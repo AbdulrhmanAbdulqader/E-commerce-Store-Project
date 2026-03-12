@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store | Product</title>
+    <link rel="icon" href="images/ICON.jpg">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/Bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- START HEADER  -->
+    <header>
+        <div class="top-header d-flex align-items-center py-1 ">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class=" col-4 col-lg-3">
+                        <a href=""><img width="90" src="images/LOGO.jpg" alt="LOGO"></a>
+                    </div>
+                    <div class="col-8 col-lg-4  d-flex align-items-center">
+                        <input type="text" class="form-control" placeholder="اكتب اسم المنتج للبحث عنه">
+                    </div>
+                    <div class="col-lg-4 left-header d-none align-items-center justify-content-end d-lg-flex">
+                        <a class="py-2" data-bs-toggle="offcanvas" href="#cart" role="button">
+                            <span>السلة </span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a class="py-2" data-bs-toggle="offcanvas" href="#login" role="button">
+                            <span>الدخول </span>
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <a class="py-2" data-bs-toggle="offcanvas" href="#" role="button">
+                            <span>المفضلة </span>
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="buttom-header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler mean-icon icon-bars" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered  "></i>
+                    </button>
+                    <div class="">
+                        <button class="navbar-toggler mean-icon" type="button" data-bs-toggle="offcanvas" href="#login">
+                            <i class="fa-solid fa-user"></i>
+                            <button class="navbar-toggler mean-icon" type="button" data-bs-toggle="offcanvas"
+                                href="#cart">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">لابتوبات</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">الجوالات</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">شاشات</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">الساعات</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">إكسسوارات</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">عطورات</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+    </header>
+
+    <!-- END HEADER  -->
+
+
+    <div class="container mt-3 mb-3 mb-md-0">
+
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                <li class="breadcrumb-item active" aria-current="page">الجوالات</li>
+                <li class="breadcrumb-item active" aria-current="page">Sumsong</li>
+            </ol>
+        </nav>
+
+
+
+        <div class="row justify-content-center mb-4">
+            <div class=" col-md-4 ">
+                <div id="carouselExampleIndicators" class="carousel slide ">
+                    <div class="carousel-indicators carousel-img">
+                        <img data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active img-slider"
+                            src="images/جوالات/11.jpg.jpeg" alt="">
+                        <img data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class=" img-slider"
+                            src="images/جوالات/18.jpg.jpeg" alt="">
+                        <img data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class=" img-slider"
+                            src="images/جوالات/17.jpg.jpeg" alt="">
+                    </div>
+                    <div class="carousel-inner carousel-inner-img">
+                        <div class="carousel-item active">
+                            <img src="images/جوالات/11.jpg.jpeg" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/جوالات/18.jpg.jpeg" class="d-block img-fluid" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/جوالات/17.jpg.jpeg" class="d-block img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h1 class="modal-title  my-3">Galaxy S25 Ultra</h1>
+                <p class="product-description">
+                    اختيار ذكي يجمع بين أداء موثوق وتصميم يلفت الأنظار. صُنع بدقة ليوفر تجربة استخدام سلسة وتوازناً
+                    ممتازاً بين السعر والقيمة.
+                </p>
+                <div class="quick-reviews mb-3">
+                    <span>
+                        آراء المستخدمين :
+                    </span>
+                    <div class="stars mb-2 d-inline-flex ">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="price mb-3">
+                    <span> السعر: 400$</span>
+                    <span> 500$</span>
+                </div>
+
+                <div class="btns d-flex gap-2 mb-4">
+                    <div class="btn-group " role="group" aria-label="Basic example">
+                        <button type="button" class="btn  btns-quantity">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn  btns-quantity">-</button>
+                    </div>
+                    <div class="d-flex gap-1 add-btn ">
+                        <button class="btn btn-danger">شراء الآن</button>
+                        <button class="btn btn-success"> إضافة إلى السلة</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="category mb-2">
+                    <span class="text-danger me-4"> التصنيفات :</span>
+                    <a href="">Sumsong </a>
+                </div>
+                <div class="share ">
+                    <span>المشاركة :</span>
+                    <div class="share-icon d-inline-flex gap-2 ms-4">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- START SPECAIL PRODUCTS  -->
+    <div class="specail-product">
+        <div class="container pt-4">
+            <ul class="nav nav-tabs ">
+                <li class="nav-item ">
+                    <a class="nav-link active" data-bs-toggle="tab" aria-current="page" href="#discription">تفاصيل </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " data-bs-toggle="tab" href="#reviews">المراجعات</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" data-bs-toggle="tab" href="#instr-shipping">تعليمات </a>
+                </li>
+            </ul>
+
+            <div class="tab-content m-1">
+                <div class="tab-pane fade  mt-5 show active" id="discription">
+                    <div class="row row-cols-1 row-cols-md-2 d-flex  align-items-center ">
+                        <div class="col  ">
+                            <h3 class="text-center mb-3 mb-md-4">Sumsong</h3>
+                            <h4 class="fs-3"> Galaxy S25 Ultra </h4>
+                            <p class="my-4">
+                                يُعد Galaxy S25 Ultra من أقوى الهواتف الذكية الحديثة، حيث يجمع بين التصميم الفاخر
+                                والأداء العالي. يأتي الهاتف بهيكل متين وتصميم أنيق يمنحه مظهراً راقياً مع راحة في
+                                الاستخدام اليومي.
+                            </p>
+
+                            <p class="my-4">
+                                يتميز الجهاز بشاشة كبيرة عالية الدقة توفر تجربة مشاهدة استثنائية مع ألوان واضحة وتفاصيل
+                                دقيقة، مما يجعله مثالياً لمشاهدة الفيديوهات، الألعاب، وتصفح المحتوى.
+                            </p>
+
+                            <p class="my-4">
+                                يعمل الهاتف بمعالج قوي يضمن سرعة وسلاسة في تشغيل التطبيقات المتعددة والألعاب الثقيلة دون
+                                أي بطء، إلى جانب نظام تشغيل حديث يوفر تجربة استخدام ذكية ومتطورة.
+                            </p>
+
+                            <p class="my-4">
+                                كما يحتوي Galaxy S25 Ultra على نظام كاميرات متقدم يتيح التقاط صور وفيديوهات بجودة عالية
+                                وتفاصيل دقيقة في مختلف ظروف الإضاءة، مما يجعله خياراً ممتازاً لعشاق التصوير.
+                            </p>
+
+                            <p class="my-4">
+                                إضافة إلى ذلك، يتمتع الهاتف ببطارية قوية تدوم لساعات طويلة من الاستخدام، مع دعم تقنيات
+                                الشحن السريع لتبقى متصلاً ومنتجاً طوال اليوم.
+                            </p>
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <img class="w-75 " src="images/جوالات/21.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane  fade mt-5 " id="reviews">
+                    <div class="row row-cols-1 row-cols-md-2 d-flex ">
+                        <div class="col">
+                            <h3 class="review-title">يسعدنا إبداء رأيكم في المنتج</h3>
+                            <div class="form">
+                                <div class="mb-3">
+                                    <label for="" class="form-label"></label>
+                                    <input type="text" class="form-control" placeholder="الرجاء إدخال الاسم">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"></label>
+                                <input type="email" class="form-control" placeholder="الرجاء إدخال البريد">
+                            </div>
+                            <div class="mb-3">
+                                <label for="" class="form-label"></label>
+                                <textarea name="" id="" class="form-control" rows="4"></textarea>
+                                <button class="btn btn-danger mt-3">إرسال البيانات</button>
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <h3 class="review-title">آراء العملاء </h3>
+                            <h4>4.5</h4>
+                            <div class="stars mb-2 d-inline-flex">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                            </div>
+                            <p>4500 عميل أبدى رأيه</p>
+                            <div class="">
+
+
+                                <div class="d-flex align-items-center gap-3 mt-2">
+                                    <div class="stars mb-2 d-flex text-center pt-2 ">
+                                        <span>5 <i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                    <div class="progress flex-grow-1" role="progressbar"
+                                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3  mt-2">
+                                    <div class="stars mb-2 d-inline-flex  pt-2">
+                                        <span>4 <i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                    <div class="progress flex-grow-1" role="progressbar"
+                                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            style="width: 20%"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mt-2">
+                                    <div class="stars mb-2 d-inline-flex  pt-2">
+                                        <span>3 <i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                    <div class="progress flex-grow-1" role="progressbar"
+                                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            style="width: 8%"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mt-2">
+                                    <div class="stars mb-2 d-inline-flex  pt-2">
+                                        <span>2 <i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                    <div class="progress flex-grow-1" role="progressbar"
+                                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            style="width: 2%"></div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center gap-3 mt-2">
+                                    <div class="stars mb-2 d-inline-flex  pt-2">
+                                        <span>1 <i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                    <div class="progress flex-grow-1" role="progressbar"
+                                        aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            style="width: 1%"></div>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade  mt-5 show " id="instr-shipping">
+                    <div class="row row-cols-1 row-cols-md-2 d-flex  align-items-center ">
+                        <div class="col  ">
+                            <h3 class="text-center mb-3 mb-md-4">تعليمات الشحن </h3>
+
+
+                            <h4 class="fs-4">مدة تجهيز الطلب</h4>
+                            <p class="my-4">
+                                يتم تجهيز الطلبات خلال 24 إلى 48 ساعة بعد تأكيد عملية الشراء. يعمل فريقنا على فحص المنتج
+                                بعناية والتأكد من سلامته قبل التغليف، لضمان وصوله إليك بأفضل حالة ممكنة. بمجرد الانتهاء
+                                من تجهيز الطلب سيتم تسليمه مباشرة إلى شركة الشحن لبدء عملية التوصيل.
+                            </p>
+
+                            <h4 class="fs-4"> مدة التوصيل </h4>
+                            <p class="my-4">
+                                تختلف مدة التوصيل حسب موقعك الجغرافي، لكنها عادةً تستغرق من 2 إلى 5 أيام عمل. نحن نتعاون
+                                مع شركات شحن موثوقة لضمان سرعة التوصيل وأمان الشحنة حتى تصل إلى باب منزلك بأسرع وقت
+                                ممكن.
+                            </p>
+
+                            <h4 class="fs-4">تتبع الطلب </h4>
+                            <p class="my-4">
+                                بعد شحن الطلب سيتم إرسال رقم تتبع خاص بك عبر البريد الإلكتروني أو رسالة نصية. يمكنك
+                                استخدام هذا الرقم لمتابعة حالة الشحنة ومعرفة موقعها في أي وقت حتى لحظة استلامها.
+                            </p>
+
+
+
+
+
+
+                        </div>
+                        <div class="col d-flex justify-content-center">
+                            <img class="w-75 " src="images/products/shopping-3.jpg.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- END SPECAIL PRODUCTS -->
+
+
+    <!-- END NEW-PRODUCTS SWIPPER -->
+    <section class="new-products">
+        <h2 class="text-center section-title"> المنتجات مشابهة</h2>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/1.jpg" alt="product">
+                            <div class="product-info ">
+                                <h3>آيفون</h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/2.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>آيفون</h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/3.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>آيفون</h3>
+                               <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/4.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>آيفون</h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/laptop/Product-1-1.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>لابتوب</h3>
+                               <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/6.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>سماعات </h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/7.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>آيفون</h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col product mb-4 phones swiper-slide">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icon">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-regular fa-magnifying-glass"></i></a>
+                                <a href=""> <i class="fa-solid fa-heart"></i></a>
+                                <a href=""> <i class="fa-regular fa-code-compare"></i></a>
+                            </div>
+                            <img src="images/products/9.jpg" alt="product">
+                            <div class="product-info">
+                                <h3>لابتوب</h3>
+                                <p>
+                                    جودة راقية وتصميم أنيق — الاختيار الأمثل لكل يوم.
+                                </p>
+                                <div class="stars mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+
+                                </div>
+                                <div class="price mb-2">
+                                    <span> السعر: 400$</span>
+                                    <span> 500$</span>
+                                </div>
+                                <button onclick="alert ('تم إضافة المنتج إلى السلة بنجاح')"
+                                    class="btn w-100 btn-dark card-btn">إضافة للسلة</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev text-danger"></div>
+                <div class="swiper-button-next text-danger"></div>
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+
+        </div>
+
+    </section>
+    <!-- END NEW-PRODUCTS SWIPPER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- START FOOTER -->
+    <footer class="d-flex flex-column align-items-md-center  ">
+
+        <div class="col-8 col-lg-6 pb-4 f-input ">
+            <input type="text" class="form-control d-none d-md-block" placeholder="اكتب اسم المنتج للبحث عنه">
+        </div>
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 ">
+                <div class="col  f-1 mb-4 ">
+                    <img class="w-25 " src="images/ICON.jpg" alt="LOGO">
+                    <p class="text-white ">حيث تلتقي التقنية بالفخامة. متجر متخصص بأحدث الجوالات واللابتوبات
+                        والإلكترونيات الأصلية، مع تجربة شراء آمنة وخدمة تليق بتطلعاتكم.</p>
+                    <ul class="navbar-nav text-white d-flex gap-2">
+                        <li><i class="fa-solid fa-location-dot"></i>سوريا - حماة</li>
+                        <li><i class="fa-solid fa-phone"></i>0987654321</li>
+                        <li><i class="fa-solid fa-envelope"></i>@abdulrhman.com</li>
+                    </ul>
+                </div>
+                <div class="col f-2 mt-2 mt-md-0 mb-4">
+                    <h3 class="text-white mb-4">أهم الروابط</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="">الرئيسية</a></li>
+                        <li><a href="">العروضات</a></li>
+                        <li><a href="">اتصل بنا</a></li>
+                        <li><a href="">المساعدة</a></li>
+                    </ul>
+                </div>
+                <div class="col f-3 mt-2 mt-md-0 mb-4">
+                    <h3 class="text-white mb-4"> التصنيفات</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="">حواسيب</a></li>
+                        <li><a href="">جوالات</a></li>
+                        <li> <a href="">شاشات</a></li>
+                        <li><a href="">إكسسوارات</a></li>
+                    </ul>
+                </div>
+                <div class="col f-4 mb-4">
+                    <h3 class="text-white"> النشرة البريدية</h3>
+                    <p class="text-white">اشترك في نشرتنا البريدية لتصلك أحدث عروض الإلكترونيات والإصدارات الجديدة قبل
+                        الجميع، مع مزايا حصرية للمشتركين فقط.</p>
+                    <form action="">
+                        <input type="email" placeholder="الرجاء إدخال بريدك الإلكتروني" class="form-control">
+                        <button class="btn f-btn w-100">اشتراك</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mt-3 ">
+                <div class="col ">
+                    <!-- هي منشان بطاقات الدفع -->
+                    <img class="w-25" src="images/payment-removebg-preview.png" alt="">
+                </div>
+                <div class="col  d-flex justify-content-end text-white">
+                    <p class="">
+                        © 2026 Luxury. جميع الحقوق محفوظة — علامة تجارية تعكس الفخامة في عالم التقنية.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- END FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ************  CART  *********** -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">سلة المشتريات</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row row-cols-1 row-mini-card ">
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/7.jpg" alt="">
+                    <p> sumsong </p>
+                    <div class="btn-group " role="group" aria-label="Basic example">
+                        <button type="button" class="btn  btns-quantity">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn  btns-quantity">-</button>
+                    </div>
+                </div>
+
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/4.jpg" alt="">
+                    <p> sumsong </p>
+                    <div class="btn-group " role="group" aria-label="Basic example">
+                        <button type="button" class="btn  btns-quantity">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn  btns-quantity">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img class="img-fluid w-25" src="images/products/5.jpg" alt="">
+                    <p> sumsong </p>
+                    <div class="btn-group " role="group" aria-label="Basic example">
+                        <button type="button" class="btn  btns-quantity">+</button>
+                        <button type="button" class="btn ">1</button>
+                        <button type="button" class="btn  btns-quantity">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <p class="alert alert-danger my-3 p-2 text-center ">
+                    المجموع 250$ فقط لا غير
+                </p>
+                <button class="btn btn-primary w-100">عرض السلة</button>
+                <button class="btn btn-danger w-100">إتمام الطلب</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- *********************** -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">تسجيل الدخول </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mini-login">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">اسم المستخدم أوالبريد الإلكتنروني</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور :</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">تسجيل الدخول</button>
+                </form>
+                <div class="alert alert-danger mt-3 mb-4 text-center">
+                    <a href="">إنقر هنا في حال نسيت كلمة المرور</a>
+                </div>
+                <hr>
+
+
+                <div class=" text-center mt-4">
+                    <i class=" fa-regular fa-user fa-3x"></i>
+                    <p class="mt-1">
+                        ألا يوجد لديك حساب ؟
+                    </p>
+                    <a href="" class="btn btn-danger w-100"> إنشاء حساب جديد</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- modal -->
+
+    <div class="modal fade" id="quick-product" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class=" col ">
+                            <img class="img-fluid " src="images/جوالات/11.jpg.jpeg" alt="Sumsong">
+                            <button class="btn btn-info mt-md-3 mt-5 w-100">كافة التفاصيل</button>
+                        </div>
+                        <div class="col">
+                            <h1 class="modal-title  my-3">Galaxy S25 Ultra</h1>
+                            <p class="product-description">
+                                اختيار ذكي يجمع بين أداء موثوق وتصميم يلفت الأنظار. صُنع بدقة ليوفر تجربة استخدام سلسة
+                                وتوازناً
+                                ممتازاً بين السعر والقيمة.
+                            </p>
+                            <div class="quick-reviews mb-3">
+                                <span>
+                                    آراء المستخدمين :
+                                </span>
+                                <div class="stars mb-2 d-inline-flex ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-flip-horizontal"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="price mb-3">
+                                <span> السعر: 400$</span>
+                                <span> 500$</span>
+                            </div>
+
+                            <div class="btns d-flex gap-2 mb-4">
+                                <div class="btn-group " role="group" aria-label="Basic example">
+                                    <button type="button" class="btn  btns-quantity">+</button>
+                                    <button type="button" class="btn ">1</button>
+                                    <button type="button" class="btn  btns-quantity">-</button>
+                                </div>
+                                <div class="d-flex gap-1 add-btn ">
+                                    <button class="btn btn-danger">شراء الآن</button>
+                                    <button class="btn btn-success"> إضافة إلى السلة</button>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="category mb-2">
+                                <span class="text-danger me-4"> التصنيفات :</span>
+                                <a href="">Sumsong </a>
+                            </div>
+                            <div class="share ">
+                                <span>المشاركة :</span>
+                                <div class="share-icon d-inline-flex gap-2 ms-4">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="JS/Bootstrap.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
